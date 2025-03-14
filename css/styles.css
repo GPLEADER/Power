@@ -102,7 +102,7 @@
   color: #000;
 }
 .footer__back-to-top {
-  background: none;
+  background: transparent;
   border: 1px solid black;
   padding: 8px 15px;
   font-size: 0.9rem;
@@ -110,6 +110,9 @@
   transition: 0.3s;
   border-radius: 38px;
   margin-top: 52px;
+}
+.footer__back-to-top:hover {
+  transform: translateY(-3px);
 }
 
 .hero {
@@ -127,6 +130,9 @@
 .hero .hero-preview {
   position: relative;
   margin-top: -90px;
+}
+.hero .hero-preview .preview-img {
+  width: 100%;
 }
 .hero .hero-preview .play-button {
   background: rgba(255, 255, 255, 0.2);

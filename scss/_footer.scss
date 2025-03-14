@@ -85,7 +85,7 @@
   }
 
   &__back-to-top {
-    background: none;
+    background: transparent;
     border: 1px solid black;
     padding: 8px 15px;
     font-size: 0.9rem;
@@ -94,5 +94,8 @@
     border-radius: 38px;
     margin-top: 52px;
 
+    &:hover {
+      transform: translateY(-3px);
+    }
   }
 }
