@@ -1,0 +1,33 @@
+@import 'variables';
+@import 'header';
+@import 'footer';
+@import 'hero';
+@import 'category';
+@import 'features';
+@import 'club';
+
+* {
+  list-style: none;
+  text-decoration: none;
+  color: $primary-text-color;
+  font-family: $primary-font;
+  transition: all 0.2s ease-in-out;
+}
+
+
+html {
+  scroll-behavior: smooth;
+
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    .container {
+      max-width: 1343px;
+      margin: 0 auto;
+      padding: 32px 48px;
+
+    }
+  }
+}

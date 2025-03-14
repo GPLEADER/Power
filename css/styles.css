@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+.header .navbar ul li a {
+  font-size: 14px;
+}
+.header .navbar ul li:hover {
+  transform: translateY(-3px);
+}
+.header .button button {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  gap: 13px;
+  text-transform: uppercase;
+  border: 1px solid #2C2C2C;
+  padding: 10px 20px;
+  border-radius: 38px;
+  background: transparent;
+}
+.header .button button:hover {
+  transform: translateY(-3px);
+}
+
+.footer {
+  margin-top: 120px;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.footer__left {
+  max-width: 400px;
+}
+.footer .socials {
+  margin-top: 63px;
+}
+.footer__text {
+  max-width: 350px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #7A7A7A;
+}
+.footer__email {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  text-transform: uppercase;
+  margin-top: 63px;
+}
+.footer__socials {
+  display: flex;
+  gap: 10px;
+  margin-top: 24px;
+}
+.footer__socials a {
+  font-size: 1.2rem;
+  color: black;
+  transition: 0.3s;
+}
+.footer__socials a:hover {
+  color: #ff4b4b;
+}
+.footer__right {
+  text-align: right;
+}
+.footer__links {
+  display: flex;
+  align-items: center;
+  gap: 113px;
+  margin-bottom: 20px;
+}
+.footer__links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: start;
+}
+.footer__links ul li {
+  margin-bottom: 8px;
+}
+.footer__links ul a {
+  text-decoration: none;
+  color: #7A7A7A;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+.footer__links ul a:hover {
+  color: #000;
+}
+.footer__back-to-top {
+  background: none;
+  border: 1px solid black;
+  padding: 8px 15px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 38px;
+  margin-top: 52px;
+}
+
+.hero {
+  padding-top: 85px;
+}
+.hero .hero-content {
+  text-align: center;
+  text-transform: uppercase;
+}
+.hero .hero-content .hero-heading {
+  font-weight: 600;
+  font-size: 148px;
+  margin-top: -10px;
+}
+.hero .hero-preview {
+  position: relative;
+  margin-top: -90px;
+}
+.hero .hero-preview .play-button {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(4px);
+  left: 628px;
+  top: 231px;
+  position: absolute;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+.hero .hero-preview .spans {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  text-transform: uppercase;
+  width: 244px;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+}
+.hero .hero-preview .spans span {
+  color: #fff;
+}
+
+.category {
+  display: flex;
+  padding-top: 120px;
+  justify-content: space-between;
+}
+.category .category-left-content h3 {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.category .category-left-content p {
+  color: #7A7A7A;
+  max-width: 456px;
+}
+.category .category-right-content {
+  display: flex;
+  flex-direction: column;
+}
+.category .category-right-content .accardion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 548px;
+  text-transform: uppercase;
+}
+.category .category-right-content .accardion h3 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.category .category-right-content .accardion button {
+  border: 1px solid #2C2C2C;
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.features {
+  padding-top: 120px;
+}
+.features h2 {
+  font-weight: 500;
+  font-size: 48px;
+  text-align: center;
+  margin: auto;
+  max-width: 530px;
+  text-transform: uppercase;
+}
+.features .cards {
+  display: flex;
+  margin-top: 64px;
+  gap: 24px;
+  justify-content: center;
+}
+.features .cards .left-cards,
+.features .cards .right-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.features .cards .left-cards .card,
+.features .cards .right-cards .card {
+  background: #EDEDED;
+  max-width: 500px;
+  padding: 48px 95px 48px 48px;
+  border-radius: 30px;
+}
+.features .cards .left-cards .card h3,
+.features .cards .right-cards .card h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.features .cards .left-cards .card p,
+.features .cards .right-cards .card p {
+  color: #7A7A7A;
+  max-width: 357px;
+}
+.features .cards .right-cards {
+  padding-top: 156px;
+}
+
+.club {
+  margin-top: 120px;
+}
+.club h2 {
+  font-weight: 500;
+  font-size: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 800px;
+  margin: auto;
+}
+.club .carts {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.club .carts .cart {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #EDEDED;
+  padding: 48px;
+  height: 140px;
+  border-radius: 30px;
+}
+.club .carts .cart .cart-button {
+  border-radius: 38px;
+  background: transparent;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 14px 32px;
+  cursor: pointer;
+}
+.club .carts .cart .cart-button:hover {
+  background: #000;
+  color: white;
+}
+.club .carts .cart .cart-content {
+  display: flex;
+  align-items: center;
+}
+.club .carts .cart .cart-content .cart-text {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  max-width: 346px;
+}
+.club .carts .cart .cart-content .cart-text h3 {
+  font-weight: 500;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.club .carts .cart .cart-content .cart-text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7A7A7A;
+}
+.club .carts .cart .cart-content .person-img {
+  position: absolute;
+  right: 398px;
+  bottom: 0;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+  color: #2C2C2C;
+  font-family: "Lexend";
+  transition: all 0.2s ease-in-out;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+html body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html body .container {
+  max-width: 1343px;
+  margin: 0 auto;
+  padding: 32px 48px;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,44 @@
+.category {
+  display: flex;
+  padding-top: 120px;
+  justify-content: space-between;
+
+  .category-left-content {
+    h3 {
+      font-size: 24px;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+
+    p {
+      color: #7A7A7A;
+      max-width: 456px;
+    }
+  }
+
+  .category-right-content {
+    display: flex;
+    flex-direction: column;
+    .accardion {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 548px;
+      text-transform: uppercase;
+
+      h3 {
+        font-size: 40px;
+        font-weight: 500;
+      }
+
+      button {
+        border: 1px solid $primary-color;
+        background: transparent;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .navbar {
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 48px;
+
+      li {
+        a {
+          font-size: 14px;
+        }
+      }
+
+      li:hover {
+        transform: translateY(-3px);
+      }
+    }
+  }
+
+  .button {
+    button {
+      display: flex;
+      cursor: pointer;
+      align-items: center;
+      gap: 13px;
+      text-transform: uppercase;
+      border: 1px solid $primary-color;
+      padding: 10px 20px;
+      border-radius: 38px;
+      background: transparent;
+    }
+
+    button:hover {
+      transform: translateY(-3px);
+    }
+  }
+}

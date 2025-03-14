@@ -1,0 +1,77 @@
+.club {
+  margin-top: 120px;
+
+  h2 {
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .carts {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    .cart {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #EDEDED;
+      padding: 48px;
+      height: 140px;
+      border-radius: 30px;
+
+      .cart-button {
+        border-radius: 38px;
+        background: transparent;
+        font-weight: 400;
+        font-size: 20px;
+        text-transform: uppercase;
+        padding: 14px 32px;
+        cursor: pointer;
+      }
+
+      .cart-button:hover {
+        background: #000;
+        color: white;
+      }
+
+
+      .cart-content {
+        display: flex;
+        align-items: center;
+
+        .cart-text {
+          display: flex;
+          flex-direction: column;
+          text-align: end;
+          max-width: 346px;
+
+          h3 {
+            font-weight: 500;
+            font-size: 32px;
+            text-transform: uppercase;
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 16px;
+            color: #7A7A7A;
+          }
+        }
+
+        .person-img {
+          position: absolute;
+          right: 398px;
+          bottom: 0;
+        }
+      }
+    }
+  }
+
+}
