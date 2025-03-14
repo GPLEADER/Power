@@ -1,6 +1,10 @@
 .footer {
   margin-top: 120px;
 
+  .footer_logo {
+    cursor: pointer;
+  }
+
   &__container {
     display: flex;
     justify-content: space-between;
